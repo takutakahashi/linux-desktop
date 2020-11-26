@@ -16,6 +16,7 @@ end
 ).each do |p|
   package p do
     action :install
+    not_if "apt show #{p}"
   end
 end
 
