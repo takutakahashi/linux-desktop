@@ -6,4 +6,4 @@ RUN wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.11.7/mit
  && mv mitamae-x86_64-linux /bin/mitamae
 COPY . /src/
 WORKDIR /src
-ENTRYPOINT ["mitamae", "local"]
+CMD ["./exec.sh"]
