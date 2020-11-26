@@ -3,4 +3,4 @@
 apt update
 apt install -y git wget sudo
 cd /src
-./provision.sh
+sudo ./provision.sh
