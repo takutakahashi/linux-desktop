@@ -1,6 +1,6 @@
 #!/bin/bash
-
-apt update
-apt install -y git wget sudo
+which sudo || (apt update && apt install -y sudo)
+sudo apt update
+sudo apt install -y git wget
 cd /src
 sudo ./provision.sh
