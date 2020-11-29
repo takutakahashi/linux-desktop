@@ -18,6 +18,7 @@ end
   package p do
     action :install
     not_if "dpkg -l |grep #{p}"
+    ignore_failure true
   end
 end
 
