@@ -12,6 +12,7 @@ end
   git
   build-essential
   file
+  zsh
   docker.io
 ).each do |p|
   package p do
