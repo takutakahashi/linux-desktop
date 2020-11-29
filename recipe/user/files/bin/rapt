@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo rpkg <%= ENV["HOME"] %>/.config/rpkg/apt.yaml apt $@
