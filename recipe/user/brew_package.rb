@@ -3,6 +3,9 @@ brew_path = "#{ENV["HOME"]}/.linuxbrew/bin/brew"
   htop
   ghq
   peco
+  kubectx
+  kubens
+  kubectl
 ).each do |p|
   execute p do
     command "#{brew_path} install #{p}"
