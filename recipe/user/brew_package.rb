@@ -4,7 +4,6 @@ brew_path = "#{ENV["HOME"]}/.linuxbrew/bin/brew"
   ghq
   peco
   kubectx
-  kubens
   kubectl
   anyenv
   direnv
