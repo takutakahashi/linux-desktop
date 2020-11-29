@@ -6,6 +6,7 @@ brew_path = "#{ENV["HOME"]}/.linuxbrew/bin/brew"
   kubectx
   kubens
   kubectl
+  anyenv
 ).each do |p|
   execute p do
     command "#{brew_path} install #{p}"
