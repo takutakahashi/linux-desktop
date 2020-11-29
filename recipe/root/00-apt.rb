@@ -16,7 +16,7 @@ end
 ).each do |p|
   package p do
     action :install
-    not_if "apt show #{p}"
+    not_if "dpkg -l |grep #{p}"
   end
 end
 
