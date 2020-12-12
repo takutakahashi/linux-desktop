@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{manufacturer}=="Iceman", RUN+="/usr/bin/kbd_exec.sh"
