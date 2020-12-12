@@ -5,6 +5,11 @@ template "/opt/.Xmodmap" do
   mode '0644'
 end
 
+template "/usr/bin/kbd_exec.sh" do
+  source "files/by-host/#{host_hash.stdout}/kbd_exec.sh"
+  mode '0644'
+end
+
 %w(
   99-kbd.rules
 ).each do |b|
