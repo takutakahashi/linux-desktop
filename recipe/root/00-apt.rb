@@ -16,6 +16,9 @@ end
   docker.io
   tmux
   fonts-ricty-diminished
+  powertop
+  tlp
+  tlp-rdw
 ).each do |p|
   package p do
     action :install
