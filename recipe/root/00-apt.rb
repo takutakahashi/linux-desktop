@@ -14,6 +14,7 @@ end
   file
   zsh
   docker.io
+  tmux
 ).each do |p|
   package p do
     action :install
