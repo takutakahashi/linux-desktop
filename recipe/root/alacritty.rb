@@ -17,12 +17,12 @@ end
 
 execute "Install Desktop Entry" do
   command "desktop-file-install /tmp/Alacritty.desktop"
-  not_if "ls /tmp/Alacritty.desktop"
+  only_if "ls /tmp/Alacritty.desktop"
 end
 
 execute "Update desktop Entry" do
   command "update-desktop-database"
-  not_if "ls /tmp/Alacritty.desktop"
+  only_if "ls /tmp/Alacritty.desktop"
 end
 
 execute "rm /tmp/Alacritty.desktop" do
