@@ -15,6 +15,7 @@ end
   zsh
   docker.io
   tmux
+  fonts-ricty-diminished
 ).each do |p|
   package p do
     action :install
