@@ -26,6 +26,7 @@ end
   powertop
   tlp
   tlp-rdw
+  fcitx-mozc
 ).each do |p|
   package p do
     action :install
