@@ -4,6 +4,7 @@ end
 
 %w(
   git
+  build-essential
   file
   zsh
   tmux
