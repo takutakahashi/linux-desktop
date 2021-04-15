@@ -2,10 +2,9 @@
 
 wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.11.7/mitamae-x86_64-linux -O mitamae
 chmod +x mitamae
-if [[ "$WSL_DISTRO_NAME" != "" ]]; then
-  sudo ./mitamae local recipe/wsl/root/*.rb
-  ./mitamae local recipe/wsl/user/*.rb
-else
-  sudo ./mitamae local recipe/root/*.rb
-  ./mitamae local recipe/user/*.rb
+sudo ./mitamae local recipe/core/root/*.rb
+./mitamae local recipe/core/user/*.rb
+if [[ "$WSL_DISTRO_NAME" == "" ]]; then
+  sudo ./mitamae local recipe/ubuntu-desktop/root/*.rb
+  ./mitamae local recipe/ubuntu-desktop/user/*.rb
 fi
