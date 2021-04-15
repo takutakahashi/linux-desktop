@@ -10,12 +10,6 @@ git conf_path do
 end
 
 %w(
-  .vimrc
-  .zshrc
-  .tmux.conf
-  .vim
-  .gitconfig
-  .gitignore_global
   .config/Code/User/settings.json
   .config/Code/User/keybindings.json
   .alacritty.yml

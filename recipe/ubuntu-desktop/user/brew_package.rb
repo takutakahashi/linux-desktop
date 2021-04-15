@@ -1,13 +1,5 @@
 brew_path = "#{ENV["HOME"]}/.linuxbrew/bin/brew"
 %w(
-  htop
-  ghq
-  peco
-  kubectx
-  kubectl
-  anyenv
-  direnv
-  stern
   hub
 ).each do |p|
   execute p do

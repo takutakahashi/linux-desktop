@@ -1,6 +1,4 @@
 %w(
-  kd
-  kubeconfigs.sh
   kbd.sh
   kbd_exec.sh
 ).each do |b|

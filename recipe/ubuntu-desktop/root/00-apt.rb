@@ -1,7 +1,3 @@
-package "curl" do
-  action :install
-end
-
 execute "download vscode" do
   command "curl -L https://go.microsoft.com/fwlink/?LinkID=760868 -o /tmp/vscode.deb"
   user "root"
@@ -20,7 +16,6 @@ end
   file
   zsh
   docker.io
-  tmux
   fonts-ricty-diminished
   chromium-browser
   powertop
