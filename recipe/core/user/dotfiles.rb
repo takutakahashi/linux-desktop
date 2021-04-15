@@ -16,9 +16,6 @@ end
   .vim
   .gitconfig
   .gitignore_global
-  .config/Code/User/settings.json
-  .config/Code/User/keybindings.json
-  .alacritty.yml
 ).each do |f|
   link "#{ENV["HOME"]}/#{f}" do
     to "#{conf_path}/home/#{f}"

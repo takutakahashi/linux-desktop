@@ -8,7 +8,6 @@ brew_path = "#{ENV["HOME"]}/.linuxbrew/bin/brew"
   anyenv
   direnv
   stern
-  hub
 ).each do |p|
   execute p do
     command "#{brew_path} install #{p}"
