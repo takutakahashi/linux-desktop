@@ -19,5 +19,7 @@ end
 ).each do |f|
   link "#{ENV["HOME"]}/#{f}" do
     to "#{conf_path}/home/#{f}"
+    not_if "ls #{ENV["HOME"]}/#{f}"
   end
+  
 end
