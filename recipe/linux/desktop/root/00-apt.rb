@@ -11,10 +11,6 @@ execute "download slack" do
 end
   
 %w(
-  git
-  build-essential
-  file
-  zsh
   docker.io
   fonts-ricty-diminished
   chromium-browser

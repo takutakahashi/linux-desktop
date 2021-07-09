@@ -5,7 +5,17 @@ wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.11.7/mitamae
 chmod +x mitamae
 sudo ./mitamae local recipe/core/root/*.rb
 ./mitamae local recipe/core/user/*.rb
-if [[ "$WSL_DISTRO_NAME" == "" ]]; then
-  sudo ./mitamae local recipe/ubuntu-desktop/root/*.rb
-  ./mitamae local recipe/ubuntu-desktop/user/*.rb
+# for wsl
+#if [[ "$WSL_DISTRO_NAME" != "" ]]; then
+#fi
+
+# for Linux Desktop
+
+if [[ "$OS" = "linux" ]]; then
+  sudo ./mitamae local recipe/linux/core/root/*.rb
+  ./mitamae local recipe/linux/core/user/*.rb
+  if [[ "$XDG_CURRENT_DESKTOP" != "" ]]; then
+    sudo ./mitamae local recipe/linux/desktop/root/*.rb
+    ./mitamae local recipe/linux/desktop/user/*.rb
+  fi
 fi
