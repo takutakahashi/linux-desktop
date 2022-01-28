@@ -1,7 +1,7 @@
 #!/bin/bash -e
 ARCH=`uname -m`
 OS=`uname |tr '[A-Z]' '[a-z]'`
-wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.11.7/mitamae-${ARCH}-${OS} -O mitamae
+wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.12.8/mitamae-${ARCH}-${OS} -O mitamae
 chmod +x mitamae
 sudo ./mitamae local recipe/core/root/*.rb
 ./mitamae local recipe/core/user/*.rb
