@@ -6,7 +6,7 @@ if [[ "$ARCH" = "arm64" ]]; then
 fi
 wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.12.8/mitamae-${ARCH}-${OS} -O mitamae
 chmod +x mitamae
-sudo ./mitamae local recipe/core/root/*.rb
+sudo ./mitamae local recipe/core/root/*.rb ||true
 ./mitamae local recipe/core/user/*.rb
 # for wsl
 #if [[ "$WSL_DISTRO_NAME" != "" ]]; then
