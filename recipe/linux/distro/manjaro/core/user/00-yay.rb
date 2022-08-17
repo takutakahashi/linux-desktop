@@ -4,7 +4,6 @@ package 'git' do
 end
 
 execute "install yay" do
-  user "owner"
-  command "git clone https://aur.archlinux.org/yay.git && cd yay && yes| makepkg -si && cd .. && rm -rf yay"
+  command "cd && git clone https://aur.archlinux.org/yay.git && cd yay && yes| makepkg -si && cd .. && rm -rf yay"
   not_if "which yay"
 end
