@@ -7,5 +7,5 @@ jobs:
       image: 'manjarolinux/base'
     steps:
       - uses: actions/checkout@v2
-      - run: yes |pacman -S make
+      - run: yes |pacman -S make wget
       - run: make manjaro
