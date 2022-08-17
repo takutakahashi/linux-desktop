@@ -1,3 +1,7 @@
+execute "update database" do
+  command "yay -Sy"
+end
+
 package_list_native = `pacman -Qqen`
 package_list_yay = `pacman -Qqem`
 f = File.open("yayfile")
