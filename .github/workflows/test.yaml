@@ -4,7 +4,8 @@ jobs:
   test:
     runs-on: ubuntu-20.04
     container:
-      image: 'manjaro'
+      image: 'manjarolinux/base'
     steps:
       - uses: actions/checkout@v2
+      - run: yes |pacman -S make
       - run: make manjaro
