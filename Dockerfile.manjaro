@@ -1,0 +1,6 @@
+FROM manjarolinux/base
+
+RUN yes |pacman -S make wget sudo
+ADD misc/sudoers /etc/sudoers.d/
+RUN useradd owner
+USER owner
