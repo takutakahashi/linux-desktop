@@ -3,8 +3,7 @@ package 'git' do
   not_if 'git version'
 end
 
-f = File.open("pacmanfile")
 execute "install pacman" do
-  command "pacman --needed --noconfirm -S #{f.read}"
+  command "pacman -S --needed $(comm -12 <(pacman -Slq | sort) <(sort pacmanfile))"
 end
 
