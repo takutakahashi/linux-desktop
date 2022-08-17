@@ -1,10 +1,4 @@
-direnv
-kubectx
-tmux
-fcitx-mozc
-fcitx-configtool
 ghq
-peco
 gnome-shell-extension-unite
 google-chrome
 rambox-pro-bin
