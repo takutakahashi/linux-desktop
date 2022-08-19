@@ -1,7 +1,5 @@
 #!/bin/bash
 MITAMAE=$PWD/mitamae
-cd $1
-cd root
-sudo $MITAMAE local ./*.rb
-cd ../user
-$MITAMAE local ./*.rb
+DIRPATH=$PWD/$1
+cd $DIRPATH/root && sudo $MITAMAE local ./*.rb
+cd $DIRPATH/user && $MITAMAE local ./*.rb
