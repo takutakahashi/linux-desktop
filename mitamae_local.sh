@@ -1,4 +1,5 @@
 #!/bin/bash
 MITAMAE=$PWD/mitamae
 cd $1
-$MITAMAE local ./*.rb
+sudo $MITAMAE local root/*.rb
+$MITAMAE local user/*.rb
