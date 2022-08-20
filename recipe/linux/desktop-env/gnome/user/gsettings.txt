@@ -43,4 +43,28 @@ org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
 org.gnome.desktop.screensaver embedded-keyboard-command ''
 org.gnome.desktop.screensaver embedded-keyboard-enabled false
 org.gnome.desktop.wm.preferences titlebar-font 'Ricty Diminished Bold 11'
+org.gnome.shell enabled-extensions "['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'x11gestures@joseexposito.github.io', 'unite@hardpixel.eu']"
+org.gnome.shell.extensions.unite app-menu-ellipsize-mode 'end'
+org.gnome.shell.extensions.unite app-menu-max-width 0
+org.gnome.shell.extensions.unite autofocus-windows true
+org.gnome.shell.extensions.unite desktop-name-text 'GNOME Desktop'
+org.gnome.shell.extensions.unite enable-titlebar-actions true
+org.gnome.shell.extensions.unite extend-left-box true
+org.gnome.shell.extensions.unite greyscale-tray-icons false
+org.gnome.shell.extensions.unite hide-activities-button 'auto'
+org.gnome.shell.extensions.unite hide-aggregate-menu-arrow false
+org.gnome.shell.extensions.unite hide-app-menu-arrow true
+org.gnome.shell.extensions.unite hide-app-menu-icon true
+org.gnome.shell.extensions.unite hide-dropdown-arrows true
+org.gnome.shell.extensions.unite hide-window-titlebars 'maximized'
+org.gnome.shell.extensions.unite notifications-position 'right'
+org.gnome.shell.extensions.unite reduce-panel-spacing true
+org.gnome.shell.extensions.unite restrict-to-primary-screen true
+org.gnome.shell.extensions.unite show-desktop-name true
+org.gnome.shell.extensions.unite show-legacy-tray true
+org.gnome.shell.extensions.unite show-window-buttons 'maximized'
+org.gnome.shell.extensions.unite show-window-title 'maximized'
+org.gnome.shell.extensions.unite use-system-fonts true
+org.gnome.shell.extensions.unite window-buttons-placement 'auto'
+org.gnome.shell.extensions.unite window-buttons-theme 'default'
 org.gnome.totem disable-keyboard-shortcuts false
