@@ -43,17 +43,4 @@ org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
 org.gnome.desktop.screensaver embedded-keyboard-command ''
 org.gnome.desktop.screensaver embedded-keyboard-enabled false
 org.gnome.desktop.wm.preferences titlebar-font 'Ricty Diminished Bold 11'
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down-static ['XF86KbdBrightnessDown']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle-static ['XF86KbdLightOnOff']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up-static ['XF86KbdBrightnessUp']
-org.gnome.settings-daemon.plugins.media-keys on-screen-keyboard ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-off ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-off-static ['XF86TouchpadOff']
-org.gnome.settings-daemon.plugins.media-keys touchpad-on ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-on-static ['XF86TouchpadOn']
-org.gnome.settings-daemon.plugins.media-keys touchpad-toggle ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-toggle-static ['XF86TouchpadToggle', '<Ctrl><Super>XF86TouchpadToggle']
 org.gnome.totem disable-keyboard-shortcuts false
