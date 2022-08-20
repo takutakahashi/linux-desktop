@@ -1,7 +1,3 @@
-org.gnome.desktop.interface document-font-name 'Ricty Diminished 11'
-org.gnome.desktop.interface font-name 'Ricty Diminished 11'
-org.gnome.desktop.interface monospace-font-name 'Ricty Diminished 11'
-org.gnome.desktop.wm.preferences titlebar-font 'Ricty Diminished Bold 11'
 org.gnome.desktop.a11y.applications screen-keyboard-enabled false
 org.gnome.desktop.a11y.keyboard bouncekeys-beep-reject false
 org.gnome.desktop.a11y.keyboard bouncekeys-delay 300
@@ -23,30 +19,30 @@ org.gnome.desktop.a11y.keyboard stickykeys-modifier-beep false
 org.gnome.desktop.a11y.keyboard stickykeys-two-key-off false
 org.gnome.desktop.a11y.keyboard timeout-enable false
 org.gnome.desktop.a11y.keyboard togglekeys-enable false
-org.gnome.desktop.peripherals.keyboard delay uint32 261
+org.gnome.desktop.interface document-font-name 'Ricty Diminished 11'
+org.gnome.desktop.interface font-name 'Ricty Diminished 11'
+org.gnome.desktop.interface monospace-font-name 'Ricty Diminished 11'
+org.gnome.desktop.peripherals.keyboard delay 261
 org.gnome.desktop.peripherals.keyboard numlock-state false
 org.gnome.desktop.peripherals.keyboard remember-numlock-state true
+org.gnome.desktop.peripherals.keyboard repeat-interval 19
 org.gnome.desktop.peripherals.keyboard repeat true
-org.gnome.desktop.peripherals.keyboard repeat-interval uint32 19
-org.gnome.desktop.peripherals.keyboard delay uint32 261
-org.gnome.desktop.peripherals.keyboard numlock-state false
-org.gnome.desktop.peripherals.keyboard remember-numlock-state true
-org.gnome.desktop.peripherals.keyboard repeat true
-org.gnome.desktop.peripherals.keyboard repeat-interval uint32 19
+org.gnome.desktop.peripherals.touchpad click-method 'areas'
+org.gnome.desktop.peripherals.touchpad disable-while-typing true
+org.gnome.desktop.peripherals.touchpad edge-scrolling-enabled false
+org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
+org.gnome.desktop.peripherals.touchpad middle-click-emulation false
+org.gnome.desktop.peripherals.touchpad natural-scroll true
+org.gnome.desktop.peripherals.touchpad send-events 'enabled'
+org.gnome.desktop.peripherals.touchpad speed 0.0
+org.gnome.desktop.peripherals.touchpad tap-and-drag-lock false
+org.gnome.desktop.peripherals.touchpad tap-and-drag true
+org.gnome.desktop.peripherals.touchpad tap-button-map 'default'
+org.gnome.desktop.peripherals.touchpad tap-to-click true
+org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
 org.gnome.desktop.screensaver embedded-keyboard-command ''
 org.gnome.desktop.screensaver embedded-keyboard-enabled false
-org.gnome.settings-daemon.peripherals.keyboard bell-custom-file ''
-org.gnome.settings-daemon.peripherals.keyboard bell-duration 100
-org.gnome.settings-daemon.peripherals.keyboard bell-mode 'on'
-org.gnome.settings-daemon.peripherals.keyboard bell-pitch 400
-org.gnome.settings-daemon.peripherals.keyboard click true
-org.gnome.settings-daemon.peripherals.keyboard click-volume 0
-org.gnome.settings-daemon.peripherals.keyboard bell-custom-file ''
-org.gnome.settings-daemon.peripherals.keyboard bell-duration 100
-org.gnome.settings-daemon.peripherals.keyboard bell-mode 'on'
-org.gnome.settings-daemon.peripherals.keyboard bell-pitch 400
-org.gnome.settings-daemon.peripherals.keyboard click true
-org.gnome.settings-daemon.peripherals.keyboard click-volume 0
+org.gnome.desktop.wm.preferences titlebar-font 'Ricty Diminished Bold 11'
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down ['']
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down-static ['XF86KbdBrightnessDown']
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle ['']
@@ -54,49 +50,10 @@ org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle-static [
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up ['']
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up-static ['XF86KbdBrightnessUp']
 org.gnome.settings-daemon.plugins.media-keys on-screen-keyboard ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-down-static ['XF86KbdBrightnessDown']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle-static ['XF86KbdLightOnOff']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up ['']
-org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up-static ['XF86KbdBrightnessUp']
-org.gnome.settings-daemon.plugins.media-keys on-screen-keyboard ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-off ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-off-static ['XF86TouchpadOff']
+org.gnome.settings-daemon.plugins.media-keys touchpad-on ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-on-static ['XF86TouchpadOn']
+org.gnome.settings-daemon.plugins.media-keys touchpad-toggle ['']
+org.gnome.settings-daemon.plugins.media-keys touchpad-toggle-static ['XF86TouchpadToggle', '<Ctrl><Super>XF86TouchpadToggle']
 org.gnome.totem disable-keyboard-shortcuts false
-org.gnome.desktop.peripherals.touchpad click-method 'areas'
-org.gnome.desktop.peripherals.touchpad disable-while-typing true
-org.gnome.desktop.peripherals.touchpad edge-scrolling-enabled false
-org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
-org.gnome.desktop.peripherals.touchpad middle-click-emulation false
-org.gnome.desktop.peripherals.touchpad natural-scroll true
-org.gnome.desktop.peripherals.touchpad send-events 'enabled'
-org.gnome.desktop.peripherals.touchpad speed 0.0
-org.gnome.desktop.peripherals.touchpad tap-and-drag true
-org.gnome.desktop.peripherals.touchpad tap-and-drag-lock false
-org.gnome.desktop.peripherals.touchpad tap-button-map 'default'
-org.gnome.desktop.peripherals.touchpad tap-to-click true
-org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
-org.gnome.desktop.peripherals.touchpad click-method 'areas'
-org.gnome.desktop.peripherals.touchpad disable-while-typing true
-org.gnome.desktop.peripherals.touchpad edge-scrolling-enabled false
-org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
-org.gnome.desktop.peripherals.touchpad middle-click-emulation false
-org.gnome.desktop.peripherals.touchpad natural-scroll true
-org.gnome.desktop.peripherals.touchpad send-events 'enabled'
-org.gnome.desktop.peripherals.touchpad speed 0.0
-org.gnome.desktop.peripherals.touchpad tap-and-drag true
-org.gnome.desktop.peripherals.touchpad tap-and-drag-lock false
-org.gnome.desktop.peripherals.touchpad tap-button-map 'default'
-org.gnome.desktop.peripherals.touchpad tap-to-click true
-org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
-org.gnome.settings-daemon.plugins.media-keys touchpad-off ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-off-static ['XF86TouchpadOff']
-org.gnome.settings-daemon.plugins.media-keys touchpad-on ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-on-static ['XF86TouchpadOn']
-org.gnome.settings-daemon.plugins.media-keys touchpad-toggle ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-toggle-static ['XF86TouchpadToggle', '<Ctrl><Super>XF86TouchpadToggle']
-org.gnome.settings-daemon.plugins.media-keys touchpad-off ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-off-static ['XF86TouchpadOff']
-org.gnome.settings-daemon.plugins.media-keys touchpad-on ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-on-static ['XF86TouchpadOn']
-org.gnome.settings-daemon.plugins.media-keys touchpad-toggle ['']
-org.gnome.settings-daemon.plugins.media-keys touchpad-toggle-static ['XF86TouchpadToggle', '<Ctrl><Super>XF86TouchpadToggle']

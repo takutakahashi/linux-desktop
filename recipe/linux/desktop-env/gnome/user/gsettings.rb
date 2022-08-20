@@ -1,6 +1,6 @@
 gsettings = File.open("./gsettings.txt")
 gsettings.each_line do |l|
   execute "#{l}" do
-    command "gsettings set #{l}"
+    command "gsettings set #{l.chomp}"
   end
 end
