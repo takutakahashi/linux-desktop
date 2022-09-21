@@ -67,4 +67,3 @@ org.gnome.shell.extensions.unite show-window-title 'maximized'
 org.gnome.shell.extensions.unite use-system-fonts true
 org.gnome.shell.extensions.unite window-buttons-placement 'auto'
 org.gnome.shell.extensions.unite window-buttons-theme 'default'
-org.gnome.totem disable-keyboard-shortcuts false
