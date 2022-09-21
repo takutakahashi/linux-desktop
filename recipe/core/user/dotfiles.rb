@@ -9,6 +9,11 @@ git conf_path do
   action :sync
 end
 
+execute "create dir" do
+  command "mkdir -p #{ENV["HOME"]}/.dev"
+  not_if "ls #{ENV["HOME"]}/.dev"
+end
+
 %w(
   .vimrc
   .zshrc
@@ -16,10 +21,10 @@ end
   .vim
   .gitconfig
   .gitignore_global
+  .dev/bin
 ).each do |f|
   link "#{ENV["HOME"]}/#{f}" do
     to "#{conf_path}/home/#{f}"
     not_if "ls #{ENV["HOME"]}/#{f}"
   end
-  
 end

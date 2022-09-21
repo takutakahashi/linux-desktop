@@ -1,0 +1,8 @@
+FROM manjarolinux/base
+
+RUN yes |pacman -S make wget sudo
+ADD misc/sudoers /etc/sudoers.d/
+RUN useradd owner \
+  && mkdir /home/owner \
+  && chown owner:owner /home/owner
+USER owner

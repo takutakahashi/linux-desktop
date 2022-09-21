@@ -1,0 +1,70 @@
+org.gnome.desktop.a11y.applications screen-keyboard-enabled false
+org.gnome.desktop.a11y.keyboard bouncekeys-beep-reject false
+org.gnome.desktop.a11y.keyboard bouncekeys-delay 300
+org.gnome.desktop.a11y.keyboard bouncekeys-enable false
+org.gnome.desktop.a11y.keyboard disable-timeout 200
+org.gnome.desktop.a11y.keyboard enable false
+org.gnome.desktop.a11y.keyboard feature-state-change-beep false
+org.gnome.desktop.a11y.keyboard mousekeys-accel-time 300
+org.gnome.desktop.a11y.keyboard mousekeys-enable false
+org.gnome.desktop.a11y.keyboard mousekeys-init-delay 300
+org.gnome.desktop.a11y.keyboard mousekeys-max-speed 10
+org.gnome.desktop.a11y.keyboard slowkeys-beep-accept false
+org.gnome.desktop.a11y.keyboard slowkeys-beep-press false
+org.gnome.desktop.a11y.keyboard slowkeys-beep-reject false
+org.gnome.desktop.a11y.keyboard slowkeys-delay 300
+org.gnome.desktop.a11y.keyboard slowkeys-enable false
+org.gnome.desktop.a11y.keyboard stickykeys-enable false
+org.gnome.desktop.a11y.keyboard stickykeys-modifier-beep false
+org.gnome.desktop.a11y.keyboard stickykeys-two-key-off false
+org.gnome.desktop.a11y.keyboard timeout-enable false
+org.gnome.desktop.a11y.keyboard togglekeys-enable false
+org.gnome.desktop.interface document-font-name 'Ricty Diminished 11'
+org.gnome.desktop.interface font-name 'Ricty Diminished 11'
+org.gnome.desktop.interface monospace-font-name 'Ricty Diminished 11'
+org.gnome.desktop.peripherals.keyboard delay 261
+org.gnome.desktop.peripherals.keyboard numlock-state false
+org.gnome.desktop.peripherals.keyboard remember-numlock-state true
+org.gnome.desktop.peripherals.keyboard repeat-interval 19
+org.gnome.desktop.peripherals.keyboard repeat true
+org.gnome.desktop.peripherals.touchpad click-method 'areas'
+org.gnome.desktop.peripherals.touchpad disable-while-typing true
+org.gnome.desktop.peripherals.touchpad edge-scrolling-enabled false
+org.gnome.desktop.peripherals.touchpad left-handed 'mouse'
+org.gnome.desktop.peripherals.touchpad middle-click-emulation false
+org.gnome.desktop.peripherals.touchpad natural-scroll true
+org.gnome.desktop.peripherals.touchpad send-events 'enabled'
+org.gnome.desktop.peripherals.touchpad speed 0.0
+org.gnome.desktop.peripherals.touchpad tap-and-drag-lock false
+org.gnome.desktop.peripherals.touchpad tap-and-drag true
+org.gnome.desktop.peripherals.touchpad tap-button-map 'default'
+org.gnome.desktop.peripherals.touchpad tap-to-click true
+org.gnome.desktop.peripherals.touchpad two-finger-scrolling-enabled true
+org.gnome.desktop.screensaver embedded-keyboard-command ''
+org.gnome.desktop.screensaver embedded-keyboard-enabled false
+org.gnome.desktop.wm.preferences titlebar-font 'Ricty Diminished Bold 11'
+org.gnome.shell enabled-extensions "['pamac-updates@manjaro.org', 'dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'gnome-ui-tune@itstime.tech', 'legacyschemeautoswitcher@joshimukul29.gmail.com', 'x11gestures@joseexposito.github.io', 'unite@hardpixel.eu']"
+org.gnome.shell.extensions.unite app-menu-ellipsize-mode 'end'
+org.gnome.shell.extensions.unite app-menu-max-width 0
+org.gnome.shell.extensions.unite autofocus-windows true
+org.gnome.shell.extensions.unite desktop-name-text 'GNOME Desktop'
+org.gnome.shell.extensions.unite enable-titlebar-actions true
+org.gnome.shell.extensions.unite extend-left-box true
+org.gnome.shell.extensions.unite greyscale-tray-icons false
+org.gnome.shell.extensions.unite hide-activities-button 'auto'
+org.gnome.shell.extensions.unite hide-aggregate-menu-arrow false
+org.gnome.shell.extensions.unite hide-app-menu-arrow true
+org.gnome.shell.extensions.unite hide-app-menu-icon true
+org.gnome.shell.extensions.unite hide-dropdown-arrows true
+org.gnome.shell.extensions.unite hide-window-titlebars 'maximized'
+org.gnome.shell.extensions.unite notifications-position 'right'
+org.gnome.shell.extensions.unite reduce-panel-spacing true
+org.gnome.shell.extensions.unite restrict-to-primary-screen true
+org.gnome.shell.extensions.unite show-desktop-name true
+org.gnome.shell.extensions.unite show-legacy-tray true
+org.gnome.shell.extensions.unite show-window-buttons 'maximized'
+org.gnome.shell.extensions.unite show-window-title 'maximized'
+org.gnome.shell.extensions.unite use-system-fonts true
+org.gnome.shell.extensions.unite window-buttons-placement 'auto'
+org.gnome.shell.extensions.unite window-buttons-theme 'default'
+org.gnome.totem disable-keyboard-shortcuts false
