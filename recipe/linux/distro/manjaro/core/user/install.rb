@@ -13,5 +13,5 @@ f.each_line do |p|
   end
 end
 execute "clean yay cache" do
-  command "yes |yay -Sc
+  command "yes |yay -Sc"
 end
