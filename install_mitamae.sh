@@ -1,4 +1,5 @@
 #!/bin/bash -e
+ls ./mitamae && exit 0
 ARCH=`uname -m`
 OS=`uname |tr '[A-Z]' '[a-z]'`
 if [[ "$ARCH" = "arm64" ]]; then
