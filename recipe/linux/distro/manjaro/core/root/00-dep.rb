@@ -11,3 +11,7 @@ execute "install pacman" do
   command "pacman -S --needed --noconfirm $(comm -12 <(pacman -Slq | sort) <(sort pacmanfile))"
 end
 
+execute "clean pacman cache" do
+  command "yes |pacman -Sc"
+end
+
