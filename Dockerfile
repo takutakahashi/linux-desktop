@@ -9,5 +9,7 @@ RUN useradd owner \
 COPY . /home/owner/.provision/
 RUN chown owner:owner -R /home/owner/.provision
 
-RUN su owner bash -c "make -C /home/owner/.provision manjaro"
+RUN su owner bash -c "make -C /home/owner/.provisio mitamae RECIPE=recipe/core/"
+RUN su owner bash -c "make -C /home/owner/.provisio mitamae RECIPE=recipe/linux/core/"
+RUN su owner bash -c "make -C /home/owner/.provisio mitamae RECIPE=recipe/linux/distro/manjaro/core/"
 USER owner
