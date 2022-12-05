@@ -13,3 +13,4 @@ RUN su owner bash -c "make -C /home/owner/.provision mitamae RECIPE=recipe/core/
 RUN su owner bash -c "make -C /home/owner/.provision mitamae RECIPE=recipe/linux/core/"
 RUN su owner bash -c "make -C /home/owner/.provision mitamae RECIPE=recipe/linux/distro/manjaro/core/"
 USER owner
+WORKDIR /home/owner
