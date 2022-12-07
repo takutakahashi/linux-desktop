@@ -1,8 +1,8 @@
 FROM manjarolinux/base
 
-RUN pacman -S --needed --noconfirm base-devel make wget sudo git
+RUN pacman -S --needed --noconfirm base-devel make wget sudo git zsh
 ADD misc/sudoers /etc/sudoers.d/
-RUN useradd owner \
+RUN useradd -s /usr/bin/zsh owner \
   && mkdir /home/owner \
   && chown owner:owner /home/owner
 
