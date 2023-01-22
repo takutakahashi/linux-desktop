@@ -10,3 +10,7 @@ mitamae: install_mitamae
 
 install_mitamae:
 	./install_mitamae.sh
+
+dump_manjaro:
+	pacman -Qqen |sort > recipe/linux/distro/manjaro/core/root/pacmanfile
+	pacman -Qqem |sort > recipe/linux/distro/manjaro/core/user/yayfile

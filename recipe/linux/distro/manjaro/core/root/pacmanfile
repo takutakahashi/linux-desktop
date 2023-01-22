@@ -1,4 +1,5 @@
 acpi
+acpica
 acpid
 adobe-source-han-sans-cn-fonts
 adobe-source-han-sans-jp-fonts
@@ -35,6 +36,7 @@ dosfstools
 e2fsprogs
 ecryptfs-utils
 efibootmgr
+endeavour
 evince
 exfatprogs
 f2fs-tools
@@ -46,7 +48,6 @@ file-roller
 filesystem
 findutils
 firefox
-firefox-gnome-theme-maia
 fprintd
 fragments
 gawk
@@ -75,6 +76,7 @@ gnome-keyring
 gnome-layout-switcher
 gnome-logs
 gnome-mines
+gnome-power-manager
 gnome-session
 gnome-settings-daemon
 gnome-shell
@@ -82,7 +84,6 @@ gnome-shell-extension-appindicator
 gnome-shell-extension-arcmenu
 gnome-shell-extension-dash-to-dock
 gnome-shell-extension-dash-to-panel
-gnome-shell-extension-desktop-icons-ng
 gnome-shell-extension-gnome-ui-tune
 gnome-shell-extension-gsconnect
 gnome-shell-extension-legacy-theme-auto-switcher
@@ -92,7 +93,6 @@ gnome-shell-extensions
 gnome-system-monitor
 gnome-terminal
 gnome-themes-extra
-gnome-todo
 gnome-tweaks
 gnome-user-docs
 gnome-user-share
@@ -106,7 +106,6 @@ grub
 grub-btrfs
 grub-theme-manjaro
 gthumb
-gtkhash-nautilus
 gtksourceview-pkgbuild
 gufw
 gvfs
@@ -118,6 +117,8 @@ gvfs-nfs
 gvfs-smb
 gzip
 haveged
+helm
+helmfile
 htop
 iagno
 illyria-wallpaper
@@ -127,9 +128,13 @@ inxi
 iproute2
 iputils
 jfsutils
+jq
 kubectl
 kubectx
+kubie
+kustomize
 less
+lib32-flac
 lib32-libva-vdpau-driver
 lib32-mesa-vdpau
 lib32-vulkan-intel
@@ -155,9 +160,6 @@ manjaro-alsa
 manjaro-application-utility
 manjaro-artwork
 manjaro-base-skel
-manjaro-documentation-en
-manjaro-dynamic-wallpaper
-manjaro-firmware
 manjaro-gdm-branding
 manjaro-gnome-extension-settings
 manjaro-gnome-settings
@@ -187,6 +189,7 @@ nano-syntax-highlighting
 nautilus
 nautilus-admin
 nautilus-empty-file
+neovim
 network-manager-sstp
 networkmanager
 networkmanager-openconnect
@@ -196,22 +199,25 @@ networkmanager-strongswan
 networkmanager-vpnc
 nfs-utils
 noto-fonts
-noto-fonts-compat
 noto-fonts-emoji
+npm
 nss-mdns
 ntfs-3g
 ntp
 numlockx
+obsidian
 onlyoffice-desktopeditors
 openresolv
 openssh
 os-prober
 p7zip
+packer
 pacman
 pacui
 pamac-gnome-integration
 pamac-gtk
 papirus-maia-icon-theme
+patch
 pciutils
 peco
 perl
@@ -223,10 +229,12 @@ procps-ng
 prometheus
 prometheus-node-exporter
 psmisc
+python-pip
 qgnomeplatform-qt5
 qgnomeplatform-qt6
 quadrapassel
 reiserfsprogs
+rpi-imager
 rsync
 rygel
 s-nail
@@ -237,6 +245,7 @@ simple-scan
 sof-firmware
 spectre-meltdown-checker
 squashfs-tools
+stern
 sudo
 sushi
 sysfsutils
@@ -266,7 +275,6 @@ usbutils
 util-linux
 vi
 vim
-vino
 vulkan-intel
 vulkan-radeon
 wallpapers-2018
@@ -279,7 +287,6 @@ wpa_supplicant
 xcursor-breeze
 xdg-user-dirs-gtk
 xdg-utils
-xf86-input-evdev
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
