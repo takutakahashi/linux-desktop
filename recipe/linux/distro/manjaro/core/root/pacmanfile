@@ -6,3 +6,4 @@ tmux
 vim
 wget
 guile
+libunistring
