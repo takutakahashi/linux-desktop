@@ -1,3 +1,4 @@
+base-devel
 direnv
 make
 tailscale
@@ -5,5 +6,3 @@ tlp
 tmux
 vim
 wget
-guile
-libunistring
