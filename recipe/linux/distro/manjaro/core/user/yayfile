@@ -1,4 +1,4 @@
-alacritty-git
+alacritty
 anyenv
 flyctl
 ghq
@@ -6,11 +6,6 @@ gnome-shell-extension-unite
 google-chrome
 gtkhash-nautilus
 kubectl-neat
-manjaro-documentation-en
-manjaro-dynamic-wallpaper
-manjaro-firmware
-noto-fonts-compat
-rambox-pro-bin
 slack-desktop
 teleport-client-bin
 ttf-ricty-diminished
