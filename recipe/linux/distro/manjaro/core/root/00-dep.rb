@@ -3,8 +3,8 @@ package 'git' do
   not_if 'git version'
 end
 
-execute "update database" do
-  command "pacman -Sy"
+execute "update system" do
+  command "pacman -Syu"
 end
 
 execute "install pacman" do
