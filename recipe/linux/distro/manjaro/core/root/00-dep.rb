@@ -4,7 +4,7 @@ package 'git' do
 end
 
 execute "update system" do
-  command "pacman -Syu"
+  command "pacman -Syu --noconfirm"
 end
 
 execute "libunistring" do
