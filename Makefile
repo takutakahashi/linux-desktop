@@ -1,7 +1,3 @@
-test:
-	docker run --rm -v ${PWD}:/src ubuntu /src/ci.sh
-ci:
-	/src/ci.sh
 core:
 	./mitamae_local.sh recipe/core/
 linux: core
