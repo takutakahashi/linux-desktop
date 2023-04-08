@@ -11,8 +11,6 @@ COPY . /home/owner/.provision/
 RUN chown owner:owner -R /home/owner/.provision
 
 ENV CONTAINER=true
-RUN su owner bash -c "make -C /home/owner/.provision mitamae RECIPE=recipe/core/"
-RUN su owner bash -c "make -C /home/owner/.provision mitamae RECIPE=recipe/linux/core/"
-RUN su owner bash -c "make -C /home/owner/.provision mitamae RECIPE=recipe/linux/distro/manjaro/core/"
+RUN su owner bash -c "make -C /home/owner/.provision manjaro"
 USER owner
 WORKDIR /home/owner

@@ -1,7 +1,9 @@
 core: install_mitamae
 	./mitamae_local.sh recipe/core/
+
 linux: core
 	./mitamae_local.sh recipe/linux/core/
+
 manjaro: linux
 	./mitamae_local.sh recipe/linux/distro/manjaro/core/
 
@@ -10,6 +12,7 @@ ubuntu: linux
 
 sway:
 	./mitamae_local.sh recipe/linux/desktop/sway/core/
+
 gnome:
 	./mitamae_local.sh recipe/linux/desktop/gnome/core/
 
