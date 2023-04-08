@@ -1,10 +1,10 @@
-alacritty
+alacritty,i
 anyenv
 flyctl
-gnome-shell-extension-unite
-google-chrome
+gnome-shell-extension-unite,i
+google-chrome,i
 kubectl-neat
-slack-desktop
+slack-desktop,i
 teleport-client-bin
-ttf-ricty-diminished
-visual-studio-code-bin
+ttf-ricty-diminished,i
+visual-studio-code-bin,i
