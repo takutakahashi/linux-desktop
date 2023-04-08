@@ -9,6 +9,9 @@ linux: core
 manjaro: linux
 	./mitamae_local.sh recipe/linux/distro/manjaro/core/
 
+ubuntu: linux
+	./mitamae_local.sh recipe/linux/distro/ubuntu/core/
+
 sway:
 	./mitamae_local.sh recipe/linux/desktop/sway/core/
 gnome:
