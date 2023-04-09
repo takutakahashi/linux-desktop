@@ -1,8 +1,3 @@
-package 'git' do
-  action :install
-  not_if 'git version'
-end
-
 execute "update system" do
   command "pacman -Syu --noconfirm"
 end
