@@ -8,6 +8,7 @@ git conf_path do
   repository "https://github.com/takutakahashi/config.git"
   action :sync
   recursive true
+  revision "master"
 end
 
 execute "create dir" do
