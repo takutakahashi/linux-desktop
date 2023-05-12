@@ -20,3 +20,7 @@ link "#{ENV["HOME"]}/.tool-versions" do
   to "#{conf_path}/home/.tool-versions"
   not_if "ls #{ENV["HOME"]}/.tool-versions"
 end
+
+execute "run rtx install" do
+  command "~/.dev/bin/rtx install"
+end
