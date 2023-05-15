@@ -3,3 +3,6 @@ execute "install doppler" do
   not_if "which doppler"
 end
 
+package "unzip" do
+  action :install
+end
