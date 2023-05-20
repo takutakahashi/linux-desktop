@@ -15,6 +15,11 @@ execute "install rtx" do
   command "curl https://rtx.pub/rtx-latest-#{os}-#{arch} > ~/.dev/bin/rtx && chmod +x ~/.dev/bin/rtx"
   not_if "ls ~/.dev/bin/rtx"
 end
+
+link "#{ENV["HOME"]}/.rtx.toml" do
+  to "#{conf_path}/home/.rtx.toml"
+  not_if "ls #{ENV["HOME"]}/.rtx.toml"
+end
   
 link "#{ENV["HOME"]}/.tool-versions" do
   to "#{conf_path}/home/.tool-versions"
