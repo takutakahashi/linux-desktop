@@ -2,4 +2,8 @@
 
 ./install_mitamae.sh
 sudo ./mitamae local recipe/misc/install_deps.rb
-make `./detect_param.sh`
+if [[ "$1" = "" ]]; then
+  make `./detect_param.sh`
+else
+  echo make $@
+fi
