@@ -10,15 +10,11 @@ jobs:
       - run: ./entrypoint.sh manjaro
   ubuntu:
     runs-on: ubuntu-20.04
-    container:
-      image: ubuntu:latest
     steps:
       - uses: actions/checkout@v2
       - run: ./entrypoint.sh ubuntu
   darwin:
     runs-on: ubuntu-20.04
-    container:
-      image: ubuntu:latest
     steps:
       - uses: actions/checkout@v2
       - run: ./entrypoint.sh darwin
