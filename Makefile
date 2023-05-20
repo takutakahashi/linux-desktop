@@ -4,6 +4,9 @@ core: install_mitamae
 linux: core
 	./mitamae_local.sh recipe/linux/core/
 
+darwin: core
+	./mitamae_local.sh recipe/darwin/core/
+
 manjaro: linux
 	./mitamae_local.sh recipe/linux/distro/manjaro/core/
 
