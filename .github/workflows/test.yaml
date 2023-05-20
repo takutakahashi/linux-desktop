@@ -1,10 +1,24 @@
 name: test
 on: [push]
 jobs:
-  test:
+  manjaro:
     runs-on: ubuntu-20.04
     container:
       image: 'ghcr.io/takutakahashi/linux-desktop/manjaro'
     steps:
       - uses: actions/checkout@v2
       - run: make manjaro
+  ubuntu:
+    runs-on: ubuntu-20.04
+    container:
+      image: ubuntu:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: make ubuntu
+  darwin:
+    runs-on: ubuntu-20.04
+    container:
+      image: ubuntu:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: make darwin
