@@ -4,7 +4,7 @@ execute "install brew" do
 end
 
 %w(
-
+  
 ).each do |p|
   execute p do
     command "brew install #{p}"
@@ -13,10 +13,14 @@ end
 end
 
 %w(
-
+  slack
+  rancher
+  visual-studio-code
+  google-chrome
+  google-japanese-ime
+  alacritty
 ).each do |p|
   execute p do
-    command "brew install --cask #{p}"
-    not_if "which #{p}"
+    command "brew upgrade --cask #{p} || brew install --cask #{p}"
   end
 end
