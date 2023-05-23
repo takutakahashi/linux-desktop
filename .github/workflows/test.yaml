@@ -21,4 +21,4 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
-      - run: ./entrypoint.sh darwin
+      - run: make darwin
