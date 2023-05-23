@@ -16,16 +16,6 @@ execute "install rtx" do
   not_if "ls ~/.dev/bin/rtx"
 end
 
-link "#{ENV["HOME"]}/.rtx.toml" do
-  to "#{conf_path}/home/.rtx.toml"
-  not_if "ls #{ENV["HOME"]}/.rtx.toml"
-end
-  
-link "#{ENV["HOME"]}/.tool-versions" do
-  to "#{conf_path}/home/.tool-versions"
-  not_if "ls #{ENV["HOME"]}/.tool-versions"
-end
-
 execute "run rtx install" do
   command "~/.dev/bin/rtx install"
 end
