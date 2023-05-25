@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       RTX_DEBUG: "1"
+      RTX_JOBS: "1"
     container:
       image: 'ghcr.io/takutakahashi/linux-desktop/manjaro'
     steps:
@@ -18,6 +19,7 @@ jobs:
     runs-on: ubuntu-20.04
     env:
       RTX_DEBUG: "1"
+      RTX_JOBS: "1"
     steps:
       - uses: actions/checkout@v2
       - run: ./entrypoint.sh ubuntu
@@ -25,6 +27,7 @@ jobs:
     runs-on: macos-latest
     env:
       RTX_DEBUG: "1"
+      RTX_JOBS: "1"
     steps:
       - uses: actions/checkout@v2
       - run: make darwin
