@@ -21,12 +21,16 @@ end
   .zshrc
   .tmux.conf
   .vim
-  .rtx.toml
+  .config/rtx/config.toml
   .tool-versions
   .gitconfig
   .gitignore_global
   .dev/bin
 ).each do |f|
+  execute "create dir" do
+    command "mkdir -p #{ENV["HOME"]}/#{File.dirname(f)}"
+    not_if "ls #{ENV["HOME"]}/#{File.dirname(f)}"
+  end
   link "#{ENV["HOME"]}/#{f}" do
     to "#{conf_path}/home/#{f}"
     not_if "ls #{ENV["HOME"]}/#{f}"
