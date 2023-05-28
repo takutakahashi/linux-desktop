@@ -1,7 +1,7 @@
 FROM manjarolinux/base
 
 RUN pacman -Sy
-RUN pacman -S --needed --noconfirm base-devel make wget sudo git zsh
+RUN pacman -S --needed --noconfirm base-devel make wget sudo git zsh openssh
 ADD misc/sudoers /etc/sudoers.d/
 RUN useradd -s /usr/bin/zsh owner \
   && mkdir /home/owner \
