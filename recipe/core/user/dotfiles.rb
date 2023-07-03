@@ -1,4 +1,4 @@
-conf_path = "#{ENV["HOME"]}/.go/src/github.com/takutakahashi/config"
+conf_path = "#{ENV["HOME"]}/.config/dots"
 execute "create dir" do
   command "mkdir -p #{conf_path}"
   not_if "ls #{conf_path}"
@@ -30,6 +30,10 @@ end
   execute "create dir" do
     command "mkdir -p #{ENV["HOME"]}/#{File.dirname(f)}"
     not_if "ls #{ENV["HOME"]}/#{File.dirname(f)}"
+  end
+  execute "recreate link" do
+    command "rm -f #{ENV["HOME"]}/f}"
+    not_if "ls -lah #{ENV["HOME"]}/#{f} |grep #{conf_path}"
   end
   link "#{ENV["HOME"]}/#{f}" do
     to "#{conf_path}/home/#{f}"
