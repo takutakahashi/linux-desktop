@@ -6,5 +6,5 @@ if [[ "$ARCH" = "arm64" ]]; then
   ARCH="aarch64"
 fi
 DISTRO=$1
-wget https://github.com/itamae-kitchen/mitamae/releases/download/v1.12.8/mitamae-${ARCH}-${OS} -O mitamae
+curl -L https://github.com/itamae-kitchen/mitamae/releases/download/v1.12.8/mitamae-${ARCH}-${OS} > mitamae
 chmod +x mitamae
