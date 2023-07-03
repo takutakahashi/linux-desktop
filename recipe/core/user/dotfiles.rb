@@ -32,7 +32,7 @@ end
     not_if "ls #{ENV["HOME"]}/#{File.dirname(f)}"
   end
   execute "recreate link" do
-    command "rm -f #{ENV["HOME"]}/f}"
+    command "rm -f #{ENV["HOME"]}/#{f}"
     not_if "ls -lah #{ENV["HOME"]}/#{f} |grep #{conf_path}"
   end
   link "#{ENV["HOME"]}/#{f}" do
