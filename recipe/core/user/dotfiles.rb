@@ -21,6 +21,7 @@ end
   .zshrc
   .tmux.conf
   .vim
+  .config/nvim/lua/user
   .tool-versions
   .gitconfig
   .gitignore_global
