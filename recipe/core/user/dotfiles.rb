@@ -21,7 +21,6 @@ end
   .zshrc
   .tmux.conf
   .vim
-  .config/rtx/config.toml
   .tool-versions
   .gitconfig
   .gitignore_global
