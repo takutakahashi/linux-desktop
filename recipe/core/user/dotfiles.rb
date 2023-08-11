@@ -22,6 +22,7 @@ end
   .tmux.conf
   .vim
   .config/rtx/config.toml
+  .config/nvim/lua/user
   .tool-versions
   .gitconfig
   .gitignore_global
