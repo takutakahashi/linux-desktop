@@ -19,6 +19,12 @@ end
   google-chrome
   google-japanese-ime
   alacritty
+  jasper
+  alfred
+  alt-tab
+  scroll-reverser
+  rectangle
+  tailscale
 ).each do |p|
   execute p do
     command "brew upgrade --cask #{p} || brew install --cask #{p}"
