@@ -4,5 +4,5 @@ execute "install brew" do
 end
 
 execute "brew bundle" do
-  command "brew bundle"
+  command "brew bundle --global"
 end
