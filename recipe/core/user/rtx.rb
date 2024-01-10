@@ -17,5 +17,5 @@ execute "install rtx" do
 end
 
 execute "run rtx install" do
-  command "~/.dev/bin/rtx install"
+  command "~/.dev/bin/rtx install -y"
 end
