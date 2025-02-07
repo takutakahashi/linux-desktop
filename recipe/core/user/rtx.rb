@@ -11,11 +11,6 @@ if os == "darwin" then
   os = "macos"
 end
 
-execute "install rtx" do
-  command "curl https://rtx.pub/rtx-latest-#{os}-#{arch} > ~/.dev/bin/rtx && chmod +x ~/.dev/bin/rtx"
-  not_if "ls ~/.dev/bin/rtx"
-end
-
-execute "run rtx install" do
-  command "~/.dev/bin/rtx install -y"
+execute "install mise" do
+  command "curl https://mise.run | sh"
 end
