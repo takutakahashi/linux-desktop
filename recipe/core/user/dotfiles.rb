@@ -27,6 +27,7 @@ end
   .gitignore_global
   .dev/bin
   .Brewfile
+  .zsh
 ).each do |f|
   execute "create dir" do
     command "mkdir -p #{ENV["HOME"]}/#{File.dirname(f)}"
